@@ -18,7 +18,8 @@ jobs:
       - name: Install dependencies
         run: |
           npm install --also=dev
-          npx playwright install
+          sudo npx playwright install --with-deps
+
       - name: Run your tests
         run: npx playwright test tests/home.spec.ts
       - name: Upload test results
