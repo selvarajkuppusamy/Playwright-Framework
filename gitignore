@@ -1,0 +1,8 @@
+node_modules/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# We need to ignore these files too while saving for security
+# loggedInState.json
+# notLoggedInState.json

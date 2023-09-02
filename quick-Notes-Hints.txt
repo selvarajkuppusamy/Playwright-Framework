@@ -1,0 +1,102 @@
+
+`BEFORE EACH` 
+
+PROs - 
+- Useful to perform actions before every test
+- Parallel run is possible, as before each will be done in all workers before a test starts
+
+CONs - 
+- But not very great to do same task for 100 times when running tests, Solution can be BEFORE ALL.
+
+
+`BEFORE ALL`
+
+PROs -
+- Before All will need to run tests sequentially in single worker/ brower page.
+- Not very bad, but it has to wait for one test to finish before starting next one.
+
+CONs -  
+- Solution is to use SIGNED IN ROLE.
+
+
+`SIGNED IN STATE`
+
+PROs - 
+- Global-setup file is created and login details are stored GLOBALLY!!
+    - Logged in State is saved in a JSON file when tests are triggered, Configs updated accordingly >>> storageState: 'loggedInState.json'
+    - This means, all further ests can run in parallel using the details in loggedInState.json
+
+CONs - 
+- As loggedInState keeps all workers loggged in, we might need some workers to run test that does not need to be logged in already.
+- Multiple Signed In Roles can be Solution
+
+
+`MULTIPE SIGNED IN ROLES`
+
+PROs - 
+- Store multiple files - notLoggedInState and loggedInState as JSON files.
+- Tests will have it mentioned if they need to use notLoggedInState
+- Otherwise, they pick up the loggedInState
+    - This means, we can run all tests in a single run in parallel using Playwright.
+
+CONs - 
+- Not anything obvious so far, we can log in future :) 
+
+
+`PARALLEL TESTING`
+
+PROs - 
+- All tests should be independent and they can run in parallel in any worker.
+
+CONs -
+
+TIP - 
+- >>>> npx playwright test tests --worker 4 >> Try restriting workers only if tests are flaky with too many workers.
+- >>>> npx playwright test tests --worker 1 >> This will run tests in sequence, not in parallel due to number of workers
+- Both above can be done in config file as well
+- test.describe.serial() will also make tests run sequentially
+
+`CROSS BROWSER TESTING`
+
+PROs - 
+- Trigger one test with 3 browsers in config, and they all run in parallel
+- Can run in headless mode as well - chromium, FF, Webkit
+- Can choose Mobile browsers as well
+- We might not need Browser stack at all.
+
+CONs - 
+- Open to find out
+
+TIP - 
+- Edit config for any browser type needed
+
+
+`REPORTERS` 
+
+PROs - 
+- Built in Reports available - List, Line, Dot, HTML, JSON REPORTERS
+- Multiple reports can be obtained for tests, by config or via CLI
+- Third Party Support - Allure, Tesults Reporter
+- Attach Debug tracing into Allure reports 
+
+CONs - 
+
+TIP -
+>>> npx playwright test blog.spec.ts --reporter=list 
+>>> npx playwright test blog.spec.ts --reporter=line
+>>> npx playwright test blog.spec.ts --reporter=html (Default)
+>>> reporter: [['html'], ['list]] ==> Can also be specified in config
+
+ALLURE - 
+
+>> npm i -D @playwright/test allure-playwright  === > Install Allure
+>> npm i -D allure-commandline   ===> Install CLI
+>> npx allure generate allure-results --clean  ===> Generate Allure results into Allure report
+>> trace.playwright.dev websbite will let you drop your trace from Allure report and analyse it
+    - Make sure trace is set to trace: 'retain-on-failure', in configs.
+
+
+`GITHUB ACTIONS`
+
+
+

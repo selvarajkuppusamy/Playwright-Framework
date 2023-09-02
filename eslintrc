@@ -1,0 +1,28 @@
+/**
+
+ESLINT - 
+
+1. Install ESlint >> npm install eslint --save-dev
+2. Install ESlint plugin for playwright >>>>>> npm i eslint-plugin-playwright
+3. Install ESlint plugins for TypeScript (if using JS, not needed)
+    >>>> npm install @typescript-eslint/eslint-plugin @typescript-eslint/parser --save-dev
+4. Install ESlint VS code extension
+5. Create .eslintc in Root folder and create below content.
+
+Now ready to go >> We can see errors while scripting
+
+Or >>>>>>>> npx eslint <filename/ foldername>  will tell us the entire errors/ warnings
+*/
+
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "extends": [
+      "plugin:playwright/playwright-test",
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended"
+    ]
+  }

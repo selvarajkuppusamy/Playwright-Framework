@@ -1,0 +1,55 @@
+{
+  "cookies": [
+    {
+      "name": "wp_wpfileupload_e07ef222fe18f1b43430eb5704226509",
+      "value": "pwBh6TbzkpTChTtqdB5pkxcQ1Z8WgOx8",
+      "domain": "practice.automationbro.com",
+      "path": "/",
+      "expires": 1693844291.26022,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "wp_wpfileupload_bcee46caf8128c4169fb42a56c1b36e7",
+      "value": "3sLgHBKw7rLnCWBzpw68cerrLkBeTqnM",
+      "domain": "practice.sdetunicorns.com",
+      "path": "/",
+      "expires": 1693844292.442474,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "tk_or",
+      "value": "%22%22",
+      "domain": ".sdetunicorns.com",
+      "path": "/",
+      "expires": 1728231495.46691,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "tk_r3d",
+      "value": "%22%22",
+      "domain": ".sdetunicorns.com",
+      "path": "/",
+      "expires": 1693930695,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "tk_lr",
+      "value": "%22%22",
+      "domain": ".sdetunicorns.com",
+      "path": "/",
+      "expires": 1725207495,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
