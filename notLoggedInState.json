@@ -2,20 +2,20 @@
   "cookies": [
     {
       "name": "wp_wpfileupload_e07ef222fe18f1b43430eb5704226509",
-      "value": "pYrp2t7AqGdL6Pz6LtBp8Wmg758eeeTb",
+      "value": "CNQRm5nnmrznPM43wcZaZyOedkkKmpLy",
       "domain": "practice.automationbro.com",
       "path": "/",
-      "expires": 1693846604.415742,
+      "expires": 1693859685.632572,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "wp_wpfileupload_bcee46caf8128c4169fb42a56c1b36e7",
-      "value": "Bx5qsYQRM9aANmrSMwktzDrKnjckEzHp",
+      "value": "rkOBY26kYxXO86K8GCdm6bGXzxRYe1me",
       "domain": "practice.sdetunicorns.com",
       "path": "/",
-      "expires": 1693846605.730157,
+      "expires": 1693859686.553007,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -25,7 +25,7 @@
       "value": "%22%22",
       "domain": ".sdetunicorns.com",
       "path": "/",
-      "expires": 1728233808.908136,
+      "expires": 1728246889.011939,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -35,7 +35,7 @@
       "value": "%22%22",
       "domain": ".sdetunicorns.com",
       "path": "/",
-      "expires": 1693933008,
+      "expires": 1693946089,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -45,7 +45,7 @@
       "value": "%22%22",
       "domain": ".sdetunicorns.com",
       "path": "/",
-      "expires": 1725209808,
+      "expires": 1725222889,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
