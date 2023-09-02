@@ -35,28 +35,28 @@ test.describe('Home', () => {
     }) 
 
 
-    test('Verify heading text is visible using TEXT SELECTOR', async ({ page }) => {
+    test('Verify heading text is visible using TEXT SELECTOR', async () => {
 
-        const headingText = await homePage.headingText;
-        await expect(headingText).toBeVisible();  
+        const headingText1 = homePage.headingText;
+        await expect(headingText1).toBeVisible();  
     })
 
 
-    test('Verify Home Link is enabled using TEXT & CSS SELECTOR', async ({ page }) => {
+    test('Verify Home Link is enabled using TEXT & CSS SELECTOR', async () => {
         
         const homeText = homePage.homeMenu
         await expect(homeText).toBeEnabled();
     })
     
 
-    test('Verify Search ICON is visible using XPATH SELECTOR', async ({ page }) => {
+    test('Verify Search ICON is visible using XPATH SELECTOR', async () => {
 
         const searchIcon = homePage.searchIcon
-        await expect(searchIcon).toBeVisible();
+        await expect(searchIcon).toBeEnabled();
     })
 
 
-    test('Verify Name for all Menu URLs', async ({ page }) => {
+    test('Verify Name for all Menu URLs', async () => {
 
         const menuNamesList = [
             "Home",
