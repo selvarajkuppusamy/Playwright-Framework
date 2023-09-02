@@ -16,7 +16,7 @@ class HomePage {
         this.page = page;
         this.getStartedBtn = page.locator('#get-started');
         // this.headingText = page.locator('text=think different. make different.');           // ' ' is case in-sensitive, " " is case Sensitive.
-        this.headingText = page.getByText('think different. make different.');           // works too
+        this.headingText = page.getByText('Think different. Make different.');           // works too
         this.homeMenu = page.locator('#zak-primary-menu >> text=Home');                         // >> lets adding 2 attributes
         // this.homeMenu = page.locator('#primary-menu:has-text("Home")');                  // Works too
         this.searchIcon = page.locator('//*[@class="zak-header-actions zak-header-actions--desktop"]//*[@class="zak-header-search__toggle"]');
