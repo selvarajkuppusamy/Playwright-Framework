@@ -16,7 +16,9 @@ jobs:
         with:
           node-version: '14'
       - name: Install dependencies
-        run: npm install --dev
+        run: |
+          npm install --also=dev
+          npx playwright install
       - name: Run your tests
         run: npx playwright test tests/home.spec.ts
       - name: Upload test results
