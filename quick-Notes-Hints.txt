@@ -92,8 +92,8 @@ ALLURE -
 PROs - 
 - Very customisable, can add labels, JIRA number, etc. to the test/ report
 
->> npx allure generate allure-results --clean  ===> Generate Allure results into Allure report
->> npx allure generate allure-results --clean && npx allure open >> Opens the report as well
+>> npx allure generate <source-results-dir-name> --clean  ===> Generate Allure results into Allure report
+>> npx allure generate allure-reports --clean && npx allure open >> Opens the report as well
 
 >> npm i -D @playwright/test allure-playwright  === > Install Allure
 >> npm i -D allure-commandline   ===> Install CLI
