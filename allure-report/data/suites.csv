@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Sep 03 12:01:34 BST 2023","Sun Sep 03 12:01:39 BST 2023","5200","Mobile Safari","","Home","","","Verify heading text is visible using TEXT SELECTOR",""
+"passed","Sun Sep 03 12:01:44 BST 2023","Sun Sep 03 12:01:48 BST 2023","4041","Mobile Safari","","Home","","","Verify Search ICON is visible using XPATH SELECTOR",""
+"passed","Sun Sep 03 12:01:39 BST 2023","Sun Sep 03 12:01:44 BST 2023","4219","Mobile Safari","","Home","","","Verify Home Link is enabled using TEXT & CSS SELECTOR",""
+"passed","Sun Sep 03 12:01:30 BST 2023","Sun Sep 03 12:01:34 BST 2023","4713","Mobile Safari","","Home","","","Click Get Started button using CSS SELECTOR",""
+"passed","Sun Sep 03 12:01:23 BST 2023","Sun Sep 03 12:01:30 BST 2023","6727","Mobile Safari","","Home","","","Open Home Page and Verify Title",""
+"passed","Sun Sep 03 12:01:48 BST 2023","Sun Sep 03 12:01:52 BST 2023","4416","Mobile Safari","","Home","","","Verify Name for all Menu URLs",""
+"skipped","Sun Sep 03 12:01:30 BST 2023","Sun Sep 03 12:01:30 BST 2023","1","Mobile Safari","","Home","","","Navigate to About Page and Verify URL, Title",""

@@ -6,7 +6,4 @@ node_modules/
 # We need to ignore these files too while saving for security
 loggedInState.json
 notLoggedInState.json
-/allure-report/
-/allure-results/
-/TestResults
-/Test Results/
+
