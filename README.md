@@ -1,8 +1,8 @@
-# Automated Framework to Test a WEB APP using Playwight
+# Automated Test Framework using Playwight
 
-Tests Suite lives here - `/Playwright-Framework/tests/**.spec.ts`
+Tests Suite for web app lives here - `/Playwright-Framework/tests/**.spec.ts`
 
-** CONCEPTS INCLUDED IN FRAMEWORK **
+**CONCEPTS INCLUDED IN FRAMEWORK**
 
 - `SET UP`
     - Node JS
