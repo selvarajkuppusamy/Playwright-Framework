@@ -53,8 +53,8 @@ Tests Suite for web app lives here - `/Playwright-Framework/tests/**.spec.ts`
 
 **3rd Party Tools used optimise the framework**
 
-- `Playwright Runner`           ==> Run Tests quickly from code editor
-- `Playwirght Test Snippets`    ==> Handy PW-snipps   
+- `Playwright Runner`           ==> VS Code plugin - Run Tests quickly from code editor 
+- `Playwirght Test Snippets`    ==> VS Code plugin - Handy PW-snipps   
 - `ESLint`                      ==> Used Eslint Plugins specific to Playwright and TS 
 - `FakerJS`                     ==> Randomising input data
 - `Allure Reports`              ==> Customisable reporting integrated with CI
