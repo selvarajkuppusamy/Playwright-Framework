@@ -50,7 +50,8 @@ Tests Suite for web app lives here - `/Playwright-Framework/tests/**.spec.ts`
     - Git Hub/ Actions
 
 
-3rd Party Tools used optimise the framework -
+
+**3rd Party Tools used optimise the framework**
 
 - `Playwright Runner`           ==> Run Tests quickly from code editor
 - `Playwirght Test Snippets`    ==> Handy PW-snipps   
