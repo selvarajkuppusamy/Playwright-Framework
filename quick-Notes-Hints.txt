@@ -89,12 +89,16 @@ TIP -
 
 ALLURE - 
 
->> npm i -D @playwright/test allure-playwright  === > Install Allure
->> npm i -D allure-commandline   ===> Install CLI
+PROs - 
+- Very customisable, can add labels, JIRA number, etc. to the test/ report
+
 >> npx allure generate allure-results --clean  ===> Generate Allure results into Allure report
 >> npx allure generate allure-results --clean && npx allure open >> Opens the report as well
+
+>> npm i -D @playwright/test allure-playwright  === > Install Allure
+>> npm i -D allure-commandline   ===> Install CLI
 >> trace.playwright.dev websbite will let you drop your trace from Allure report and analyse it
-    - Make sure trace is set to trace: 'retain-on-failure', in configs.
+    - Make sure trace is set to trace: 'retain-on-failure', in configs, and just run tests as usual
 
 
 `GITHUB ACTIONS`

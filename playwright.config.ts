@@ -33,8 +33,8 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   // reporter: 'html',
-  // reporter: [['list'], ['allure-playwright']],
-  reporter: [['allure-playwright']],
+  // reporter: [['list'], ['allure-playwright'], [line], [html]],
+  reporter: [['allure-playwright', {outputFolder: 'test-results'}], ['line']],
 
   // For Global Setup (Signed in State Login)
   globalSetup: require.resolve('./utils/global-setup'),

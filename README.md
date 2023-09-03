@@ -1,51 +1,59 @@
-# Playwright
+# Automated Framework to Test a WEB APP using Playwight
 
-Tests Directory - 
-`/Playwright-Framework/tests/**.spec.ts`
+Tests Suite lives here - `/Playwright-Framework/tests/**.spec.ts`
 
-Additional things used optimise the framework -
+** CONCEPTS INCLUDED IN FRAMEWORK **
 
-- `ESLint`             ==>   Used Eslint Plugins specific to Playwright and TS 
-- `FakerJS`            ==>   Randomising input data
-- `Multi-Parameterise` ==>   Test, taking one parameter max, runs in parallel with multiple input test data.
-
-
-`Items covered as part of this framework`
-
-- Playwight Set up
+- `SET UP`
     - Node JS
     - Project Set up
     - Playwright config
 
-- Tests
+- `TESTS`
     - Write Test scenarios
     - Debugging
       - Debug Console
       - Trace Viewer
       - Playwirght Inspector
       - Recording Scripts
+    - Randomise Test Data
+        - Using faker-js
+    - Multi-parameterisation
+        - Run same test n times with n different test data
       
-- Page Object Model
-    - Component
+- `PAGE OBJECT MODEL`
+    - Pages
+    - Components
       
-- Before and After Hooks
+- `FIXTURES`
+    - Before Hook
+    - After Hook
   
-- Authentication Tests
+- `AUTHENTICATION`
     - Global Signed in State
     - Multi Signed In Role
     - Non-signed In tests
       
-- Parallel Testing
+- `PARALLEL TESTS`
     - Sequential and Parallel tests
     - Control number of workers the tests run on
   
-- Cross browser Testing
+- `CROSS BROWSER TESTS`
     - Desktop Browsers
     - Mobile browsers
   
-- Reporting
+ - `REPORTING`
     - Inbuilt (List, HTML, etc)
     - 3rd Party (Allure)
 
-- Integrate Framework with CI
-    - Git Hub Actions
+- `INTEGRATE TO CI`
+    - Git Hub/ Actions
+
+
+3rd Party Tools used optimise the framework -
+
+- `Playwright Runner`           ==> Run Tests quickly from code editor
+- `Playwirght Test Snippets`    ==> Handy PW-snipps   
+- `ESLint`                      ==> Used Eslint Plugins specific to Playwright and TS 
+- `FakerJS`                     ==> Randomising input data
+- `Allure Reports`              ==> Customisable reporting integrated with CI
