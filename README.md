@@ -1,4 +1,4 @@
-# Automated Test Framework using Playwight (in TypeScript)
+# Automated Test Framework using Playwight
 
 Tests Suite for web app lives here - `/Playwright-Framework/tests/**.spec.ts`
 
