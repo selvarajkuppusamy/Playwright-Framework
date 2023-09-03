@@ -4,5 +4,5 @@ node_modules/
 /playwright/.cache/
 
 # We need to ignore these files too while saving for security
-loggedInState.json
-notLoggedInState.json
+/loggedInState.json
+/notLoggedInState.json
