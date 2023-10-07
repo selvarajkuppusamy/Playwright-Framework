@@ -1,17 +1,17 @@
 // Need to try this AGAIN!!!!!!
 
-import { chromium, FullConfig } from "@playwright/test";
+import { firefox, FullConfig } from "@playwright/test";
 
 async function globalSetup(config: FullConfig) {
-  const browser = await chromium.launch();
+  const browser = await firefox.launch();
   const page = await browser.newPage()
 
   
-    await page.goto('https://practice.automationbro.com/my-account')
+  await page.goto('https://practice.automationbro.com/my-account')
 
-    //Save not logged in State to notLoggedInState.json
-    await page.context().storageState({ path: 'notLoggedInState.json' });
-    
+  //Save not logged in State to notLoggedInState.json
+  await page.context().storageState({ path: 'notLoggedInState.json' });
+  
 // login
   await page.locator('#username').fill('practiceuser1')
   await page.locator('#password').fill('PracticePass1!')

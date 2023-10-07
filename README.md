@@ -25,7 +25,7 @@ Tests Suite for web app lives here - `/Playwright-Framework/tests/**.spec.ts`
     - Pages
     - Components
       
-- `FIXTURES`
+- `FIXTURES/ HOOKS`
     - Before Hook
     - After Hook
   

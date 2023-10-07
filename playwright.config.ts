@@ -92,7 +92,7 @@ export default defineConfig({
     //   name: 'Mobile Chrome',
     //   use: {
     //     ...devices['Pixel 5'],
-    //     headless: true  },
+    //     headless: false  },
     // },
     {
       name: 'Mobile Safari',
